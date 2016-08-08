@@ -5,13 +5,13 @@
 }
 
 .navbar-default {
-  background-color: #fff;
+  background-color: $color-white;
   .navbar-collapse {
     border: none;
   }
   .navbar-nav > li > a {
     text-transform: uppercase;
-    color: #828282;
+    color: $color-grey-original;
     font-weight: bold;
     text-align: center;
   }
