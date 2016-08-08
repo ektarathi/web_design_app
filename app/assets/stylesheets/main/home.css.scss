@@ -11,7 +11,7 @@
     height: auto;
     background-color: #DBE5E7;
     .icon-section {
-      width: 35%;
+      width: 25%;
       margin: 40px auto 0px;
       background-color: #3180ff;
       border-radius: 57px;
@@ -24,8 +24,16 @@
       }
       img:hover {
         background-color: transparent;;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
         transform: rotate(360deg);
         transition: all 0.3s ease-in-out 0s;
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        -ms-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
       }
     }
     .text-content {
